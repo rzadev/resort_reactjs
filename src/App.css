@@ -101,6 +101,12 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+.nav-header > a {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #222;
+  text-decoration: none;
+}
 .nav-btn {
   background: transparent;
   border: none;
@@ -252,6 +258,7 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;
